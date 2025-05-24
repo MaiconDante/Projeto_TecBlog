@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+header {
+    height: 210px;
+    background-color: #f7b600;
+    text-align: center;
+}
+
+header > img {
+    opacity: 50%;
+    width: 150px;
+    z-index: 0;
+}
+
+header > h1 {
+    position: relative;
+    bottom: 120px;
+    z-index: 1;
+    color: #4e4e4e;
+    font-size: 3em;
+}
+
+header > h1 > span#white {
+    color: white;
+}
+
+header > h1, nav {
+    padding: 10px;
+}
+
+header > nav {
+    position: relative;
+    bottom: 80px;
+    background-color: #ebad05;
+    border-radius: 10px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+header > nav > a:link, a:visited{
+    color: #975703;
+    padding: 8px 12px;
+}
+
+header > nav > a:hover {
+    color: #f7b600;
+    background: #fff;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main > section, aside {
+    background: #f7b600;
+    box-shadow: 2px 2px 8px 1px rgba(255, 166, 0, 0.377);
+}
+
+main > section {
+    margin-top: 20px;
+    width: 660px;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+main > section#jogos {
+    margin-top: 20px;
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+main > section#jogos > img.jogos {
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+main > section#jogos > img.jogos#redondo{
+    border-radius: 80%;
+}
+
+main > section > h2 {
+    padding: 15px 0px 0px 0px;
+    color: #f7b600;
+}
+
+main > section > span {
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    display: block;
+    margin: 0px 0px 15px 0px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+main > section > p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+main > section > a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+main > section > a:link {
+    text-decoration: none;
+    color: #ca7506;
+}
+
+main > section > a:hover {
+    text-decoration: underline;
+    color: #f7b600;
+}
+
+main > aside {
+    width: 320px; 
+    float: right; 
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white; 
+}
+
+main > aside > h3 {
+    color: #565656;
+    background: #ffc355;
+    padding: 5px;
+}
+
+main > aside > a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+main > aside > a:link {
+    text-decoration: none;
+    color: #ca7506;
+}
+
+main > aside > a:hover {
+    text-decoration: underline;
+    color: #f7b600;
+}
+
+main > aside > section > p {
+    font-size: 0.8em;
+    padding: 5px;
+    text-align: justify;
+}
+
+footer {
+    margin: auto;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ffc355;
+}
